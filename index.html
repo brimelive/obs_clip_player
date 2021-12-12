@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clip Player</title>
+    <style>
+        video {
+            width: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <video id="video">
+        <source id="sourceVideo" src="https://clips.brimecdn.com/channels/cNhuxD2vE5v3os11OTt9/clips/Y5aRqcNrewoUkeNzHqKo.mp4" type="video/mp4">
+    </video>
+    <script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io();
+  socket.on('play', function(msg) {
+    document.getElementById('video').play();
+  });
+  socket.on('pause', function(msg) {
+    document.getElementById('video').pause();
+  });
+  socket.on('skip', function(msg) {
+    var getVideo = document.getElementById("video")
+    getVideo.pause()
+    getVideo.style.display = "none"; // Video was skipped so hide the player
+  });
+  socket.on('load', function(msg) {
+    var getVideo = document.getElementById("video");
+    var getSource = document.getElementById("sourceVideo");
+    getVideo.style.display = "block"; // We've got a video, so show it
+    var vid = msg.src
+        getSource .setAttribute("src", msg.src);
+        getVideo .load()
+        getVideo .play();
+        getVideo .volume = 1;
+        getVideo.addEventListener('ended', function () { 
+        getVideo.style.display = "none"; // Video is done, hide it
+},false);
+  });    
+</script>
+  </body>
+</html>
