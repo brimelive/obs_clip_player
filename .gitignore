@@ -108,6 +108,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+# TODO want to keep .env/ files?
 .env
 .venv
 env/
