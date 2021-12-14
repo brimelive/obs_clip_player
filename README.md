@@ -1,7 +1,7 @@
 
 # obs_clip_player
 
-<p align="center">
+<p align="left">
 	<br />
 	A program that serves media and controls playback for an OBS Browser Source
 	<br />
@@ -14,12 +14,6 @@
 
 <br />
 <br />
-
-<br />
-<br />
-<br />
-<br />
-
 
 # TO-DO
 1) 
