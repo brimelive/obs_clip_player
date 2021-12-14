@@ -12,8 +12,5 @@
 	<a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 </p>
 
-<br />
-<br />
-
 # TO-DO
 1) 
