@@ -1,5 +1,5 @@
 
-# obs_clip_player
+# OBS Browser Source Media Player
 
 <p align="left">
 	A program that serves media and controls playback for an OBS Browser Source
