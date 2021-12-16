@@ -12,7 +12,7 @@
 </p>
 
 # TO-DO
-1) Add backend script for mapping between chat command and clip URL, including config file info.
+1) Add backend script for mapping between chat command and clip URL, including config file info, to GitHub project.
 2) Write howto for installation and setup, including customAPI setup, and Nightbot commands.
 3) Check clip length - cutting off early?
 4) Allow user-login for multi-user access to web server
