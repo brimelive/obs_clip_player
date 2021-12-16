@@ -12,4 +12,8 @@
 </p>
 
 # TO-DO
-1) 
+1) Add backend script for mapping between chat command and clip URL, including config file info.
+2) Write howto for installation and setup, including customAPI setup, and Nightbot commands.
+3) Check clip length - cutting off early?
+4) Allow user-login for multi-user access to web server
+5) Overlay user profile pic? Potentially: print their username + game played (info is in clip metadata)
