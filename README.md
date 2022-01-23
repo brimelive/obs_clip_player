@@ -10,7 +10,8 @@
 	<br />
 	<a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 </p>
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+<br />
 # TO-DO
 1) Add backend script for mapping between chat command and clip URL, including config file info, to GitHub project.
 2) Write howto for installation and setup, including customAPI setup, and Nightbot commands.
